@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <link rel="stylesheet" href="/css/main.css"> -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <style type="text/css">
+        body {
+          margin: 0;
+          padding: 0;
+        }
+
+        /* desktop */
+        @media only screen and (min-width: 960px){
+          .container{
+            width: 960px;
+          }
+        }
+
+        /* Tablet */
+        @media only screen and (max-width: 960px){
+          .container{
+            width: 600px;
+          }
+        }
+
+        /* Handset */
+        @media only screen and (max-width: 600px){
+          .container{
+            width: 100%;
+          }
+          table[class="responsive-table"] {
+            width: 100% !important;
+          }
+          /* header */
+          table[class="header"] {
+            width: 100% !important;
+          }
+          table[class="header"] h1 {
+            float: none !important;
+          }
+          table[class="header"] ul {
+            display: none;
+          }
+          /* header ends */
+          /* hero */
+          table[class="hero"] {
+            width: 100%;
+            height: 160px !important;
+          }
+          table[class="hero"] h1 span {
+            display: none !important;
+          }
+          table[class="hero"] button {
+            margin-bottom: 14px;
+          }
+          /* hero ends */
+          /* start shopping Cart */
+          .price {
+            display: none !important;
+          }
+          .subTotal {
+            float: none !important;
+          }
+          .checkoutBtn {
+            float: none !important;
+          }
+          /* ends shopping Cart */
+          /* footer */
+          ul[class="socialMediaUl"] {
+            float: none !important;
+            margin-right: 42px;
+          }
+          /* footer */
+          @media only screen and (max-width: 320px) {
+            .img1 {
+              width: 90px;
+            }
+            .img2 {
+              width: 90px;
+            }
+          }
+        }
+    </style>
+  </head>
+  <body style="background:#111;">
+    <!-- Full width Container -->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', sans-serif;">
+      <tr>
+        <td align="center">
+          <!-- Start of 600px width container -->
+          <table class="container" width="600" cellspacing="0" cellpadding="0" border="0" class="responsive-table">
+            <!-- start of browser view link cart row -->
+            <tr>
+              <td>
+                <table class="browserView" width="100%" cellpadding="0" cellspacing="0" border="0" class="responsive-table" style="margin: 10px 0;">
+                  <tr>
+                    <td>
+                      <a href="#" style="color: #fff; text-decoration: none;">View In Browser</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- end of browser view link cart row -->
+            <!-- start of Header/Nav row -->
+            <tr>
+              <td>
+                <!-- header -->
+                <table class="header" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#4C4A4C; color:#fff; padding:10px 36px;">
+                  <tr>
+                    <td align="center">
+                      <h1 style="text-transform: uppercase;float:left;">Shopbeast<span style="padding-left:2px;font-size:15px;">&copy;</span></h1>
+                      <ul style="margin-top:35px;list-style-type:none; float:right;">
+                        <li style="display:inline-block; padding-right:8px;"><a style="text-decoration:none;color:#fff;" href="#">Home</a></li>
+                        <li style="display:inline-block; padding-right:8px;"><a style="text-decoration:none;color:#fff;" href="#">New Arrivals</a></li>
+                        <li style="display:inline-block; padding-right:8px;"><a style="text-decoration:none;color:#fff;" href="#">Brands</a></li>
+                        <li style="display:inline-block; padding-right:8px;"><a style="text-decoration:none;color:#fff;" href="#">Sale</a></li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+                <!-- header -->
+              </td>
+            </tr>
+            <!-- end of Header/Nav row -->
+            <!-- start of hero/call to action row -->
+            <tr>
+              <td>
+                  <table class="hero" align="center" bgcolor="" cellspacing="0" cellpadding="0" border="0" style="
+                      background-image: linear-gradient(135deg, rgba(0, 0, 0, -0.7) 0, #000 100%), url('https://raw.githubusercontent.com/court-tek/myWebFiles/master/theKicks2.png');
+                      background-repeat: no-repeat;
+                      background-position: top center;
+                      background-size: cover;
+                      width: 100%;
+                      height: 350px;">
+                    <tr>
+                      <td align="center">
+                        <h1 style="color:#fff;font-weight:600;font-size:36px;transform: scale(1.1);">You Dropped Something<span style="display: inline-block;">...</span></h1>
+                        <button style="background: #000000; border: 1px solid #3f4042; cursor: pointer; padding: 8px 70px; font-size: 12px; color: #fff;">Checkout Now</button>
+                      </td>
+                    </tr>
+                  </table>
+              </td>
+            </tr>
+            <!-- end of hero/call to action row -->
+            <!-- start of reminder row -->
+            <tr>
+              <td>
+                <table class="reminder" width="100%" align"center" cellpadding="0" cellspacing="0" border="0" class="responsive-table2" style="background: #4C4A4C; height: 110px; padding: 20px;">
+                  <tr>
+                    <td style="color:#fff;">
+                      <p style="margin: 0;">
+                        Mike, we noticed you visited SHOPBEAST however left without finishing your order.<br>
+                        We don't want you to miss out so we saved your items.<br>
+                        <span style=""><a style="color: #fff;">Checkout Now</a></span> to avoid disappointment and thank you for shopping at SHOPBEAST.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- end of reminder row -->
+            <!-- Start of shopping cart row -->
+            <tr>
+              <td class="shopping-Cart" style="padding:25px; background:#fff;">
+                <h4 style="margin: 0; padding-bottom: 18px;">Your Shopping Cart <span style="font-weight: 300;margin-left: 4px;font-size: 14px;">2 Items</span></h4>
+                <table class="item1" width="100%" align"center" cellpadding="0" cellspacing="0" border="0" class="responsive-table2" style="background: #fff; color: #111;height: 110px;">
+                  <tr>
+                    <td style="border-bottom:1px solid grey; padding: 15px 0;">
+                      <img class="img1" style="float:left; margin-right: 12px;" src="https://raw.githubusercontent.com/court-tek/myWebFiles/master/elPant.png" alt="">
+                      <P class="description" style="float:left;">
+                        <span class="desc1_1 line">Silent Damir Doma</span><br>
+                        <span class="desc2_1 line">Black Poils TrShort<br>
+                        <span class="desc3_1 line">Size: M
+                      </P>
+                      <h5 class="price" style="display: inline-block; margin: 50px 0; float:right;">$136.99</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="border-bottom:1px solid grey; padding: 15px 0;">
+                      <img class="img2" style="float:left; margin-right: 12px;" src="https://raw.githubusercontent.com/court-tek/myWebFiles/master/elShirt.png" alt="">
+                      <P class="description" style="float:left;">
+                        <span class="desc1_2 line">Silent Damir Doma</span><br>
+                        <span class="desc2_2 line">Black Tindi L/S T-Shirt<br>
+                        <span class="desc3_2 line">Size: L
+                      </P>
+                      <h5 class="price" style="display: inline-block; margin: 50px 0; float:right;">$136.99</h5>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td align="center" style="border-bottom: 1px solid grey;">
+                      <p class="subTotal" style="float:left;">Cart Subtotal: $<span>280</span></p>
+                      <button class="checkoutBtn" style="float: right; margin: 16px 0; cursor: pointer; background: #789dbf; color:#fff; border-radius:4px; padding:5px 25px; font-weight: 500; border: none;">Proceed To checkout</button>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- end of shopping cart row -->
+            <!-- start of socialMedia Footer cart row -->
+            <tr>
+              <td>
+                <table class="socialMediaFooter" width="100%" align"center" cellpadding="0" cellspacing="0" border="0" class="responsive-table2" style="background: #fff; height: 10px; padding: 20px;">
+                  <tr>
+                    <td align="center" style="">
+                      <ul class="socialMediaUl" style="float:right; list-style-type: none;">
+                        <li style="display:inline-block; padding-right: 8px;"><img  src="https://raw.githubusercontent.com/court-tek/myWebFiles/master/bookFace.png" alt=""></li>
+                        <li style="display:inline-block; padding-right: 8px;"><img  src="https://raw.githubusercontent.com/court-tek/myWebFiles/master/tweetIt.png" alt=""></li>
+                        <li style="display:inline-block; padding-right: 8px;"><img  src="https://raw.githubusercontent.com/court-tek/myWebFiles/master/tubeYou.png" alt=""></li>
+                      </ul>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- end of socialMedia Footer cart row -->
+            <!-- start of unsubscribe link cart row -->
+            <tr>
+              <td>
+                <table class="unsubscribe" width="100%" cellpadding="0" cellspacing="0" border="0" class="responsive-table2" style="margin: 10px 0;">
+                  <tr>
+                    <td>
+                      <a href="#" style="color: #fff; text-decoration: none;">Unsubscribe</a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <!-- end of unsubscribe link cart row -->
+          </table>
+          <!-- End of 600px width container -->
+        </td>
+      </tr>
+    </table>
+    <!-- End of full  width container -->
+  </body>
+</html>
