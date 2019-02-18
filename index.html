@@ -77,9 +77,12 @@
           }
           /* ends shopping Cart */
           /* footer */
-          ul[class="socialMediaUl"] {
-            float: none !important;
-            margin-right: 42px;
+          .socialMediaFooter .regulatory {
+            width: 100% !important;
+            text-align: center;
+          }
+          .socialMediaFooter .socialMedia {
+            width: 100% !important;
           }
           /* footer */
           @media only screen and (max-width: 320px) {
@@ -92,6 +95,15 @@
             .img2 {
               width: 90px;
             }
+            /* footer */
+            .socialMediaFooter .regulatory {
+              width: 100% !important;
+              text-align: center;
+            }
+            .socialMediaFooter .socialMedia {
+              width: 100% !important;
+            }
+            /* footer */
           }
         }
     </style>
@@ -221,33 +233,42 @@
               <td>
                 <table class="socialMediaFooter" width="100%" align"center" cellpadding="0" cellspacing="0" border="0" bgcolor="#f1f1f1" class="responsive-table2" style="background: #fff; height: 10px; padding: 20px;">
                   <tr>
-                    <td width="400">
-                      <!--SKILLSHARE: Add a link to your Website here-->
-                      <span style="font-family: Arial, Helvetica, sans-serif; color: #a1a1a1; font-size: 10px;">You are receiving this because you subscribed online at <a href="http://shopbeastMedia.co" style="color: gray">ShopbeastMedia.co<br>
+                    <td>
+                      <table width="100%" align="right" style="text-align: center;" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td>
+                          <!--SKILLSHARE: Add a link to your Website here-->
+                          <span style="font-family: Arial, Helvetica, sans-serif; color: #a1a1a1; font-size: 10px;">You are receiving this because you subscribed online at <a href="http://shopbeastMedia.co" style="color: gray">ShopbeastMedia.co<br>
 
-                      <!--SKILLSHARE: Add a View Online to your privacy policy-->
-                      <a href="{$url}" style="color: gray;">View Online</a> |
-                      <!--SKILLSHARE: Add your personal unsubscribe link here-->
-                      <a href="{$unsubscribe}" style="color: gray;">Unsubscribe</a> |
-                      <!--SKILLSHARE: Add a link to your privacy policy-->
-                      <a href="http://shopbeast.co/privacy-policy/" style="color: gray;">Privacy Policy</a>
+                          <!--SKILLSHARE: Add a View Online to your privacy policy-->
+                          <a href="{$url}" style="color: gray;">View Online</a> |
+                          <!--SKILLSHARE: Add your personal unsubscribe link here-->
+                          <a href="{$unsubscribe}" style="color: gray;">Unsubscribe</a> |
+                          <!--SKILLSHARE: Add a link to your privacy policy-->
+                          <a href="http://shopbeast.co/privacy-policy/" style="color: gray;">Privacy Policy</a>
 
-                      </span>
+                          </span>
 
-                      <br /><br />
+                          <br /><br />
 
-                      <span style="font-family: Arial, Helvetica, sans-serif; color: #a1a1a1; font-size: 10px;">
-                    <!--SKILLSHARE: Add your own contact information here-->
+                          <span style="font-family: Arial, Helvetica, sans-serif; color: #a1a1a1; font-size: 10px;">
+                          <!--SKILLSHARE: Add your own contact information here-->
 
-                    ShopBeast Co. LLC | <a href="mailto:chang@shopbeastMedia.co" style="color: gray">chang@shopbeastMedia.co</a></span>
+                          ShopBeast Co. LLC | <a href="mailto:chang@shopbeastMedia.co" style="color: gray">chang@shopbeastMedia.co</a></span>
 
-                    <br /><br />
-                   </td>
-
-                   <td width="140" valign="top">
-                     <!--SKILLSHARE: Change any or all of these icons and links-->
-                     <a href="https://twitter.com/shopbeast"><img border="0" src="images/icon-twitter.png"></a>
-                     <a href="https://instagram.com/shopbeast"><img border="0" src="images/icon-instagram.png"></a>
+                          <br /><br />
+                        </td>
+                      </tr>
+                    </table>
+                    <table width="100%" align="right" style="text-align: center;" cellspacing="0" cellpadding="0" border="0" valign="top">
+                        <tr>
+                           <td class="socialMedia">
+                              <!--SKILLSHARE: Change any or all of these icons and links-->
+                              <a href="https://twitter.com/shopbeast"><img border="0" src="images/icon-twitter.png"></a>
+                              <a href="https://instagram.com/shopbeast"><img border="0" src="images/icon-instagram.png"></a>
+                          </td>
+                        </tr>
+                    </table>
                    </td>
                   </tr>
                 </table>
